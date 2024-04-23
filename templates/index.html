@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sensor Data Collection</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <!-- header.html -->
+    {% include 'header.html' %}
+
+    <div class="container">
+        <h1>Welcome to Sensor Data Collection</h1>
+        <p>Monitor temperature and humidity with our sensor data collection system.</p>
+        <div>
+            <a href="/visualize-realtime" class="button home-a1" style="background: #484891">View <b
+                    style="color: #FF2D2D">real-time</b> Data</a>
+            <a href="/visualize-specifiedtime" class="button home-a2" style="background: #484891">View <b
+                    style="color: 	#00BB00">specific-time</b> Data</a>
+        </div>
+
+    </div>
+
+    <!-- footer.html -->
+    {% include 'footer.html' %}
+
+</body>
+
+</html>
