@@ -157,4 +157,4 @@ def make_stream():
 
 if __name__ == "__main__":
     initdb(DB_NAME)
-    app.run(host="0.0.0.0", port=50, debug=True)
+    app.run(host="0.0.0.0", port=5000, debug=True)
