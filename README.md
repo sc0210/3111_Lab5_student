@@ -2,10 +2,11 @@
 
 ## 標題：延續Lab2,3課程內容，於Raspberry Pi 4上進行實作
 
-> 教材編輯者：陳昱丞
-> 課程講解：張黛妤（代班）
+> 教材編輯者：陳昱丞 ||
+> 課程講解：張黛妤（代班）||
 > 範例程式編輯：陳昱丞、陳宥云
-> ***last updated: 2024/04/23***
+
+> ***last updated: 2024/04/24***
 
 ---
 
@@ -43,8 +44,8 @@
     - 從Console中確認資料是否正確傳輸到rpi4之server
 
 4. 成果示意圖
-    - ![成果示意圖1](./figures/DHT11toServer.gif)
-    - ![成果示意圖2](./figures/StartServer.gif)
+![成果示意圖1](./figures/DHT11toServer.gif)
+![成果示意圖2](./figures/StartServer.gif)
 
 ---
 
@@ -86,3 +87,6 @@
 ## 常見問題
 
 1. 無法正常將DHT11感測器之溫濕度資料，透過ESP32呈現在Arduino IDE中之Serial Port？
+    - 請先查閱Lab2,3教材，完成該課程之進度，再接續。
+2. 執行`python app.py`後，遇到Permission error
+    - 調整`app.py`中，執行flask server之port（如:5000）
